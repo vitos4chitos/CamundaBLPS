@@ -5,11 +5,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.io.Serializable;
+
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Verdict {
+public class Verdict implements Serializable {
   private String comment;
   private String is_confirmed;
   // private String userLogin;

@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "label": "Название",
+      "type": "textfield",
+      "id": "Field_0izlmkf",
+      "key": "movieName",
+      "description": "Введите название",
+      "validate": {
+        "required": true
+      },
+      "disabled": false
+    },
+    {
+      "label": "Описание",
+      "type": "textfield",
+      "id": "Field_172a69z",
+      "key": "movieDescription",
+      "validate": {
+        "required": true
+      },
+      "description": "Введите описание"
+    },
+    {
+      "label": "Год",
+      "type": "textfield",
+      "id": "Field_1e77cfp",
+      "key": "movieYear",
+      "validate": {
+        "required": true
+      },
+      "description": "Введите год"
+    },
+    {
+      "label": "Продолжительность",
+      "type": "textfield",
+      "id": "Field_1i5gqsu",
+      "key": "movieRuntime",
+      "validate": {
+        "required": true
+      },
+      "description": "Введите продолжительность"
+    },
+    {
+      "label": "Жанры",
+      "type": "textfield",
+      "id": "Field_058qfya",
+      "key": "movieGenres",
+      "description": "Введите жанры (Формат: [\"Комедия\", ...])",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Страны",
+      "type": "textfield",
+      "id": "Field_07o5xeq",
+      "key": "movieCountries",
+      "validate": {
+        "required": true
+      },
+      "description": "Введите страны (Формат: [\"Россия\", ...])"
+    },
+    {
+      "label": "Режисёры",
+      "type": "textfield",
+      "id": "Field_1vj55sr",
+      "key": "movieDirectors",
+      "validate": {
+        "required": true
+      },
+      "description": "Введите id режисёров (Формат: [1, 2, ...])"
+    },
+    {
+      "label": "Сценаристы",
+      "type": "textfield",
+      "id": "Field_10jferv",
+      "key": "movieWriters",
+      "validate": {
+        "required": true
+      },
+      "description": "Введите id сценаристов (Формат: [1, 2, ...])"
+    },
+    {
+      "label": "Актеры",
+      "type": "textfield",
+      "id": "Field_012ovmo",
+      "key": "movieActors",
+      "validate": {
+        "required": true
+      },
+      "description": "Введите id актеров (Формат: [1, 2, ...])"
+    }
+  ],
+  "type": "default",
+  "id": "saveMovieForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}
